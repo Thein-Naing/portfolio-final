@@ -1,15 +1,16 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: #b5fac7;
+  background-color: #000;
 }
 
 .pages {
-  color: #316685;
+  color: #c4d0e1;
   text-align: center;
-  font-size: 3.5rem;
-  margin-top: 10%;
+  font-size: 2rem;
+  margin-top: 5%;
 }
