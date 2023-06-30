@@ -7,14 +7,14 @@ const Portfolio = () => {
   const projectsInfo = [
     {
       title: "workoutbuddy-mern-stack",
-      image: workoutbuddy,
+      img: workoutbuddy,
       description:" Mern-stack web app to create for your everyday workout exercises",
       githuburl: "https://github.com/Thein-Naing/workout-api-mern",
       deployurl: "https://workoutbuddy-frontend.onrender.com/",
     },
     {
       title: "todolist-react",
-      image: todolist,
+      img: todolist,
       description:
         " React web app to create your important todo lists and mark with emoji",
       githuburl: "https://github.com/Thein-Naing/todo-tailwind-react",
@@ -23,7 +23,7 @@ const Portfolio = () => {
 
     {
       title: "movieland-react",
-      image: movieland,
+      img: movieland,
       description:
         " React web app to search your favorite movies using tmdb movie api",
       githuburl: "https://github.com/Thein-Naing/movieland",
@@ -44,9 +44,9 @@ const Portfolio = () => {
             <a className="card-link" href={project.githuburl} target="_blank">
               <div key={i} className="card">
                 <img
-                  src={project.image}
+                  src={project.img}
                   className="card-img-top"
-                  alt="project image"
+                  alt="project img"
                 />
                 <div className="card-body">
                   <h5 className="card-title">{project.title}</h5>
