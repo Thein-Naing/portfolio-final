@@ -41,7 +41,7 @@ const Portfolio = () => {
         {projectsInfo.map((project, i) => {
           return (
 
-            <a className="card-link" href={project.githuburl} target="_blank">
+            <a className="card-link" href={project.githuburl} target="_blank" rel="noreferrer">
               <div key={i} className="card">
                 <img
                   src={project.img}
