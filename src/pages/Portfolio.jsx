@@ -8,7 +8,7 @@ const Portfolio = () => {
     {
       title: "workoutbuddy-mern-stack",
       img: workoutbuddy,
-      description:" Mern-stack web app to create for your everyday workout exercises",
+      description:" Mern-stack web app to create your everyday workout exercises",
       githuburl: "https://github.com/Thein-Naing/workout-api-mern",
       deployurl: "https://workoutbuddy-frontend.onrender.com/",
     },
