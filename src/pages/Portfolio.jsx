@@ -70,7 +70,7 @@ const Portfolio = () => {
                     Github
                   </a>
                   <a href={project.liveurl} className="gitAndLiveLink">
-                    Deploy Link
+                    Live
                   </a>
                   </div>
                 </div>
