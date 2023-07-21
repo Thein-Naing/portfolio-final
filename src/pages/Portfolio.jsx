@@ -1,6 +1,7 @@
 import  todolist from "../images/todolist.png";
 import  workoutbuddy from "../images/workoutbuddy.png";
 import  movieland from "../images/movieland.png";
+import  expense from "../images/expense.png";
 import "./Portfolio.css";
 
 const Portfolio = () => {
@@ -10,7 +11,7 @@ const Portfolio = () => {
       img: workoutbuddy,
       description:" Mern-stack web app to create your everyday workout exercises",
       githuburl: "https://github.com/Thein-Naing/workout-api-mern",
-      deployurl: "https://workoutbuddy-frontend.onrender.com/",
+      liveurl: "https://workoutbuddy-frontend.onrender.com/",
     },
     {
       title: "todolist-react",
@@ -18,7 +19,7 @@ const Portfolio = () => {
       description:
         " React web app to create your important todo lists and mark with emoji",
       githuburl: "https://github.com/Thein-Naing/todo-tailwind-react",
-      deployurl: "https://react-exercises-tailwind-todo.netlify.app/",
+      liveurl: "https://react-exercises-tailwind-todo.netlify.app/",
     },
 
     {
@@ -27,8 +28,18 @@ const Portfolio = () => {
       description:
         " React web app to search your favorite movies using tmdb movie api",
       githuburl: "https://github.com/Thein-Naing/movieland",
-      deployurl: "https://react-exercises-movieland-api.netlify.app//",
+      liveurl: "https://react-exercises-movieland-api.netlify.app/",
     },
+
+    {
+      title: "expense-tracker-react",
+      img: expense,
+      description:
+        " React web app to check your expenses using (useState, useContext, useReducer) and the context API",
+      githuburl: "https://github.com/Thein-Naing/movieland",
+      liveurl: "https://expense-checker-react.netlify.app/",
+    },
+
 
 
   ];
@@ -58,7 +69,7 @@ const Portfolio = () => {
                   <a href={project.githuburl} className="gitAndLiveLink">
                     Github
                   </a>
-                  <a href={project.deployurl} className="gitAndLiveLink">
+                  <a href={project.liveurl} className="gitAndLiveLink">
                     Deploy Link
                   </a>
                   </div>
