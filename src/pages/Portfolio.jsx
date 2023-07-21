@@ -36,7 +36,7 @@ const Portfolio = () => {
       img: expense,
       description:
         " React web app to check your expenses using (useState, useContext, useReducer) and the context API",
-      githuburl: "https://github.com/Thein-Naing/movieland",
+      githuburl: "https://github.com/Thein-Naing/expense-tracker",
       liveurl: "https://expense-checker-react.netlify.app/",
     },
 
