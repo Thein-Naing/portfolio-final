@@ -2,6 +2,7 @@ import  todolist from "../images/todolist.png";
 import  workoutbuddy from "../images/workoutbuddy.png";
 import  movieland from "../images/movieland.png";
 import  expense from "../images/expense.png";
+import  amazona from "../images/amazona.png";
 import "./Portfolio.css";
 
 const Portfolio = () => {
@@ -40,7 +41,14 @@ const Portfolio = () => {
       liveurl: "https://expense-checker-react.netlify.app/",
     },
 
-
+    {
+      title: "amazon-clone-react",
+      img: amazona,
+      description:
+        " A Full-Stack E commerce Amazon Clone application built with react and firebase ",
+      githuburl: "https://github.com/Thein-Naing/amazona",
+      liveurl: "https://a-5fe53.web.app/",
+    },
 
   ];
 
