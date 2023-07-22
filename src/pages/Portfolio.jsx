@@ -14,6 +14,16 @@ const Portfolio = () => {
       githuburl: "https://github.com/Thein-Naing/workout-api-mern",
       liveurl: "https://workoutbuddy-frontend.onrender.com/",
     },
+
+    {
+      title: "amazon-clone-react",
+      img: amazona,
+      description:
+        " A Full-Stack E commerce Amazon Clone application built with React and Firebase ",
+      githuburl: "https://github.com/Thein-Naing/amazona",
+      liveurl: "https://a-5fe53.web.app/",
+    },
+
     {
       title: "todolist-react",
       img: todolist,
@@ -39,15 +49,6 @@ const Portfolio = () => {
         " React web app to check your expenses using (useState, useContext, useReducer) and the context API",
       githuburl: "https://github.com/Thein-Naing/expense-tracker",
       liveurl: "https://expense-checker-react.netlify.app/",
-    },
-
-    {
-      title: "amazon-clone-react",
-      img: amazona,
-      description:
-        " A Full-Stack E commerce Amazon Clone application built with React and Firebase ",
-      githuburl: "https://github.com/Thein-Naing/amazona",
-      liveurl: "https://a-5fe53.web.app/",
     },
 
   ];
