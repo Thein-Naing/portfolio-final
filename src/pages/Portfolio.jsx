@@ -21,7 +21,7 @@ const Portfolio = () => {
       description:
         " A Full-Stack E commerce Amazon Clone application built with React and Firebase ",
       githuburl: "https://github.com/Thein-Naing/amazona",
-      liveurl: "https://a-5fe53.web.app/",
+      liveurl: "https://a-5fe53.firebaseapp.com/",
     },
 
     {
