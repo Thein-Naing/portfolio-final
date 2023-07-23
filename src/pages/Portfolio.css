@@ -61,12 +61,12 @@ a .card:hover {
   padding: 0;
 }
 .card-title {
-  color: rgba(119, 78, 208, 0.653);
+  color: rgba(225, 226, 230, 0.653);
   font-size: 22px;
-  font-style: italic;
+  font-style:normal;
   font-family: fantasy;
-  font-weight: 600;
-  margin: -18px;
+  font-weight: 400;
+  margin: -20px;
 }
 .card-text {
   margin: 10px;
@@ -85,7 +85,7 @@ a .card:hover {
   justify-content: space-between;
 }
 .gitAndLiveLink {
-  color: rgb(86, 88, 99);
+  color: rgb(247, 247, 249);
   font-weight: 900;
   font-size: 16px;
 }
