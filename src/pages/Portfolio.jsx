@@ -19,7 +19,7 @@ const Portfolio = () => {
       title: "amazona-full-stack",
       img: amazona,
       description:
-        " A full stack ecommerce Amazon Clone app built with React,Context api and Firebase ",
+        " A full stack ecommerce Amazon Clone app built with React,Firebase and context api ",
       githuburl: "https://github.com/Thein-Naing/amazona",
       liveurl: "https://a-5fe53.firebaseapp.com//",
     },
